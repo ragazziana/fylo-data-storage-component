@@ -24,7 +24,7 @@ body {
 body {
     font-family: "Raleway", sans-serif;
     font-size: 1.6rem;
-    background-color: var(--dark-blue);
+    background-color: var(--very-dark-blue);
     color: var(--white);
 }
 
@@ -39,6 +39,7 @@ main {
     width: 37.5rem;
     height: 66.7rem;
     background-image: url(images/bg-mobile.png);
+    background-repeat: repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,6 +138,9 @@ main {
 }
 
 .info1 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 16px;
     margin-top: 3.2rem;
     margin-bottom: 1.6rem;
 }
@@ -182,15 +186,20 @@ main {
     text-transform: uppercase;
 }
 
-@media (min-width: 376px) {
-    main {
-        width: 100%;
-        height: 100%;
+@media (min-width: 70rem) {
+
+    body{
         background-color: var(--very-dark-blue);
-        background-image: url(images/bg-desktop.png);
-        background-position: left bottom;
-        background-position-y: 30rem;
+    }
+    main {
+        overflow-x: hidden;
+        width: 100%;
+        height: 100vh;
+        background-color: var(--very-dark-blue);
+        background-image: url(./images/bg-desktop.png);
         background-repeat: no-repeat;
+        background-size: 144rem;
+        background-position: bottom -10rem left;
     }
 
     .wrapper {
@@ -211,8 +220,16 @@ main {
 
     .info-card {
         width: 54rem;
-        height: 15.4rem;
-        margin-bottom: 0;
+        max-height: 15.4rem;
+        margin-bottom: 0;        
+    }
+
+    
+
+    .info1{
+        text-align: left;
+        width: 100%;
+        margin-left: 8rem;
     }
 
     .detail {
@@ -251,7 +268,7 @@ main {
     }
 }
 
-@media (max-width: 800px) {
+/* @media (min-width: 700rem) {
     .wrapper {
         flex-wrap: wrap;
         margin-left: 10rem;
@@ -263,4 +280,4 @@ main {
         height: 20.1rem;
         margin-bottom: 0;
     }
-}
+} */
