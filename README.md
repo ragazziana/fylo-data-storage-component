@@ -1,6 +1,6 @@
 # Frontend Mentor - Fylo Data Storage Component
 
-This is a solution to the [Fylo Data Storage Component](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n/hub/fylo-data-storage-component-variables-mq-flexbox-3RTLeUksZ9).
+This is a solution to the [Fylo Data Storage Component](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n/hub/fylo-data-storage-component-variables-mq-flexbox-3RTLeUksZ9) 
 
 ## The Challenge
 
